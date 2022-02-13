@@ -6,20 +6,39 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+Open flie in read mode.
 
-### Step 2: 
+### Step 2:
+Read the text using read funcion.
+
+### Step 3:
+Split the text using space separator.
+
+### Step 4:
+The length of the split list should be equal to the number of words in the text file.
+
+### Step 5:
+Now give print().
+
+### Step 6:
+End the program.
+
  
-### Step 3: 
-
-### Step 4:  
-
-### Step 5: 
-
-### Step 6: 
 
 ## PROGRAM:
+count =0
+with open('recordTest','r') as test:
+    for i in test:
+        word = i.split()
+        count+=len(word)
+print('The number of words in the file',text.name,'are :',count)
 
 ### OUTPUT:
+![output](./m1.png)
+
+![output](./m2.png)
+
+![output](./m3.png)
 
 
 
